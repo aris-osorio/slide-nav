@@ -79,7 +79,7 @@ function prevSlide()
         //variable local: guarda el item que se esta revisando 
         var currentItem = itemsSlider[index]
 
-        //si el elemento contiene el elemento active
+        //si el elemento contiene la clase active
         if(currentItem.classList.contains('active')) {
             
             //se guarda elemento
