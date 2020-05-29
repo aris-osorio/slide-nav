@@ -1,0 +1,14 @@
+.slider {
+    height: 100vh;
+    overflow: hidden;
+}
+.slider a {
+    font-size: 40px;
+}
+.slider .slider-item img {
+    opacity: 0;
+    transition: opacity 2s;
+}
+.slider .slider-item.active img {
+    opacity: 1;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/components/nav.css">
+    <link rel="stylesheet" href="css/components/button.css">
+    <link rel="stylesheet" href="css/helpers.css">
+    <script src="js/nav.js"></script>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li><a onclick="showItem('content-1')" href="javascript:void(0)" class="button nav-option">Item 1</a></li>
+            <li><a onclick="showItem('content-2')" href="javascript:void(0)" class="nav-option button">Item 2</a></li>
+            <li><a onclick="showItem('content-3')" href="javascript:void(0)" class="nav-option button">Item 3</a></li>
+        </ul>
+        <div id="content-1" class="item-nav active">
+            Contenido 1 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Maxime iusto quo corporis vero saepe accusantium deserunt
+            nesciunt quisquam error soluta? Maxime earum rerum quidem,
+            laborum tenetur atque quisquam possimus praesentium?
+        </div>
+        <div id="content-2" class="item-nav">
+            Contenido 2 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Maxime iusto quo corporis vero saepe accusantium deserunt
+            nesciunt quisquam error soluta? Maxime earum rerum quidem,
+            laborum tenetur atque quisquam possimus praesentium?
+        </div>
+        <div id="content-3" class="item-nav">
+            Contenido 3 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Maxime iusto quo corporis vero saepe accusantium deserunt
+            nesciunt quisquam error soluta? Maxime earum rerum quidem,
+            laborum tenetur atque quisquam possimus praesentium?
+        </div>
+    </div>
+</body>
+</html>

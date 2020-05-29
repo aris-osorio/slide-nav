@@ -1,0 +1,7 @@
+.button {
+    background: grey;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 3px;
+    display: inline-block;
+}

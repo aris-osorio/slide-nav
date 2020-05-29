@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/components/slider.css">
+    <link rel="stylesheet" href="css/helpers.css">
+    <script src="https://kit.fontawesome.com/50ead72691.js" crossorigin="anonymous"></script>
+    <script src="js/slider.js"></script>
+</head>
+<body>
+    <div class="slider relative">
+        <!-- Items -->
+        <div class="overlay-transparent slider-item active relative">
+            <img src="https://images.pexels.com/photos/2857580/pexels-photo-2857580.jpeg" alt="camara">
+        </div>
+        <div class="overlay-transparent slider-item relative">
+            <img src="https://images.pexels.com/photos/1928151/pexels-photo-1928151.jpeg" alt="Leyendo periódico">
+        </div>
+        <div class="overlay-transparent slider-item relative">
+            <img src="https://images.pexels.com/photos/4388158/pexels-photo-4388158.jpeg" alt="Viaje en el desierto">
+        </div>
+        <!-- Prev y Next -->
+        <div class="overlay d-flex align-center justify-space-between">
+            <a onclick="prevSlide()" href="#">
+                <i class="fas fa-chevron-left text-white"></i>
+            </a>
+            <a onclick="nextSlide()" href="#">
+                <i class="fas fa-chevron-right text-white"></i>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
